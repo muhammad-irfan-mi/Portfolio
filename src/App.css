@@ -13,6 +13,7 @@
 .firstsec {
   min-height: 100vh;
   background-image: linear-gradient(to right, rgb(7, 12, 7) 37%, rgb(33, 17, 64) 75%, rgb(132, 47, 136) 100%);
+  color: white;
 }
 
 .header {
@@ -67,5 +68,60 @@ nav button:hover{
   width: 250px;
 }
 .intro img{
-  width: 75%;
+  width: 90%;
+  height: 520px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(7, 12, 7) 37%, rgb(33, 17, 64) 75%, rgb(132, 47, 136) 100%);
+}
+.link-icon a{
+  display: block;
+  color: black;
+  font-size: 37px;
+  text-align: center;
+}
+.link-icon a:hover{
+  color: rgba(0, 0, 0, 0.762);
+}
+.circle{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.circle .box{
+  width: 140px;
+  height: 140px;
+  background-image: linear-gradient(to right, rgb(56, 71, 56) 29%, rgb(33, 17, 64) 67%, rgb(132, 47, 136) 95%);
+  border-radius: 50%;
+} 
+.about-img img{
+  width: 100%;
+  height: 470px;
+  border-radius: 100%;
+}
+.about h1{
+  font-size: 63px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-left: -140px;
+}
+.about p{
+  color: rgba(255, 255, 255, 0.527);
+  font-size: 21px;
+  border-right: 2px solid white;
+  padding-right: 23px;
+  text-align: justify;
+}
+.about button{
+  background-color: var(--btnColor);
+  padding: 11px 19px;
+  color: var(--heading);
+  border-radius: 50px;
+  width: 140px;
+  font-size: 17px;
+  border: none;
+}
+.about button:hover{
+  background-color: rgb(143, 13, 99);
+  transition: all .5s ease;
 }
