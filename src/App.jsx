@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import FirstSec from './FirstSection/FirstSec'
 import About from './assets/AboutSec/About'
+import FirstSec from './assets/FirstSection/FirstSec'
+import Skill from './assets/Skill/Skill'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
     <>
     <FirstSec />
     <About />
+    <Skill />
     </>
   )
 }

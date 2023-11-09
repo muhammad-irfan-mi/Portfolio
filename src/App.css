@@ -67,11 +67,21 @@ nav button:hover{
   padding-left: 23px;
   width: 250px;
 }
+.intro-img .cross{
+  position: absolute;
+  font-size: 53px;
+}
+.intro-img{
+  text-align: center;
+
+}
 .intro img{
-  width: 90%;
+  width: 97%;
   height: 520px;
-  border: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   border-radius: 50%;
+  margin-top: 10px;
   background-image: linear-gradient(rgb(7, 12, 7) 37%, rgb(33, 17, 64) 75%, rgb(132, 47, 136) 100%);
 }
 .link-icon a{
@@ -96,7 +106,7 @@ nav button:hover{
 } 
 .about-img img{
   width: 100%;
-  height: 470px;
+  height: 450px;
   border-radius: 100%;
 }
 .about h1{
@@ -124,4 +134,36 @@ nav button:hover{
 .about button:hover{
   background-color: rgb(143, 13, 99);
   transition: all .5s ease;
+}
+
+/* Skill Section  */
+.skill h1{
+  font-size: 93px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.dot-parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 0rem;
+}
+.line{
+  height: 7px;
+  width: 75%;
+  border-radius: 50px;
+  background-color: white;
+}
+.chil-line{
+  height: 7px;
+  width: 70%;
+  border-radius: 50px;
+  background-color: var(--btnColor);
+}
+#css{
+  width: 82%;
+}
+.js{
+  width: 64%;
 }
